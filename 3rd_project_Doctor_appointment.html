@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Doctor Appiontment Form</title>
+</head>
+<body>
+  <h1>
+    Doctor Appiontment Form
+  </h1>
+  <form action =“success.html” method=“post”>
+    
+         <label for ="p_name">Enter Patient Name:</label>
+         <input type="text" name="p_name" id="p_name"  placeholder="Enter Patient name" maxlength="30" required>
+         <br><br>
+      
+         <label for="p_email">Enter Email Address:</label>
+         <input type="email" name="p_email"  placeholder="Enter Email" required>
+         <br><br>
+ 
+
+         <label for="p_age">Enter patient Age:</label>
+         <input type="date" name="p_age"  placeholder="Enter Patient Age" min="1" max="120" required>
+         <br><br>
+
+         gender:
+         <input type="radio" id="gender" name="gender" value="male"/>Male   
+         <input type="radio" id="gender" name="gender" value="female"/>female
+         <br><br>  
+         
+         Select Doctor:
+         <select name=“doctor” id=“doctor” required><br>
+         <option value=“dr1”>Dr.Singh</option>
+         <option value=“dr2”>Dr.Pawar</option>
+         <option value=“dr3”>Dr.Raj</option>
+         </select>
+         <br><br>
+         
+         <label for="A_Date" >Select Appiontment Date:</label>
+         <input type="date"  min="2026-07-01" name="A_Date" required>
+         <br><br>
+
+
+         Appiontment Time:
+         <label for="A_time">11.00 AM to 4.00 PM</label>  
+         <input type="checkbox" name="A_time" id="A_time">  
+          
+         <label for="A_time">6.00 PM to 9.30 PM</label>  
+         <input type="checkbox" name="A_time" id="A_time"><br><br>     
+             
+        
+         Describe Symptoms or Health Issues:
+         <textarea name =“Symptoms” rows="5" cols="40" placeholder="Describe your symptoms here" required></textarea>
+         <br><br>
+                    
+         <input type="submit" > 
+         <input type="reset" >
+
+</form>
+</body>
+</html>
