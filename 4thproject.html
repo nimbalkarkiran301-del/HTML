@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+Name: <input type="text"placeholder="Enter Full name">
+Email:<input type="text"placeholder="Enter Email Address">
+Mobile Number:<input type="number"placeholder="Enter Mobile Number">
+<title>Product Search Form</title><br>
+<label>Search Product Name:</label>
+<input type="text" list="products" placeholder="Type product name">
+<datalist id="products">
+<option value="Laptop">
+<option value="Smartphone">
+<option value="Headphones">
+</datalist>
+<br><br>
+<label>Select Product Category:</label>
+<select>
+<option>Electronics</option>
+<option>Clothing</option>
+<option>Home Appliances</option>
+</select>
+<br><br>
+<label>Choose Preferred Brand:</label>
+<select>
+<option>Samsung</option>
+<option>Apple</option>
+<option>HP</option>
+<option>Dell</option>
+<option>Lenovo</option>
+<option>Sony</option>
+</select>
+<br><br>
+<label>Set Price Range:</label><br>
+<input type="range" min="1000" max="100000" step="1000">
+<br><br>
+<input type="submit" value="Search">
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>
